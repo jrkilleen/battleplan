@@ -1,0 +1,247 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 8px 8px 8px 8px;
+}
+
+tr{
+	width: 80px;
+}
+
+.creditslist ul{
+    position: center;
+    height: 800px;
+    width: 300px;
+
+    overflow: scroll;
+    margin: 0;
+    list-style-type: none;
+    padding: 0px;
+
+    border: 2px solid #ccc;
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.historylist{
+    padding: 20px;
+}
+
+.historylist ul{
+    position: center;
+    height: 800px;
+    width: 300px;
+
+    overflow: scroll;
+    margin: 0;
+    list-style-type: none;
+    padding: 0px;
+
+    border: 2px solid #ccc;
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.historylist ul li{
+    padding: 10px 20px;
+
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    &:last-child {
+     border-bottom: none;
+    }
+
+    &:nth-child(even) {
+     background: #f8f8f8;
+    }
+}
+
+
+.userlist{
+    padding: 20px;
+}
+
+.userlist ul{
+    position: center;
+    height: 800px;
+    width: 300px;
+
+    overflow: scroll;
+    margin: 0;
+    list-style-type: none;
+    padding: 0px;
+
+    border: 2px solid #ccc;
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.userlist ul li{
+    padding: 10px 20px;
+
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    &:last-child {
+     border-bottom: none;
+    }
+
+    &:nth-child(even) {
+     background: #f8f8f8;
+    }
+}
+
+.my-legend {
+/*width: 150px;*/
+
+/*height: 300px;*/
+background: white;
+border: solid;
+}
+.my-legend ul{
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+.my-legend ul li label{
+	padding-left: 10px;
+	font-size: 10px;
+	vertical-align: middle;
+	display: inline-block;
+	
+}
+.my-legend ul li img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.my-legend ul li {
+
+	cursor: pointer;	
+	margin: auto;
+
+	/* padding: 12px 8px 12px 40px;*/
+	list-style-type: none;
+	background: #0;
+
+	transition: 0.2s;
+	width: 110px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	/* make the list items unselectable */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Darker background-color on hover */
+.my-legend ul li:hover {
+  background: #ddd;
+}
+
+
+.coordinates{
+    background-color: white;
+    width: 150px;
+	text-align: center;
+}
+
+.savebutton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+ 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+     display:inline;
+}
+.cancelbutton {
+    background-color: red;
+    border: none;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+     display:inline;
+}
+textarea {
+   resize: none;
+}
+.removebutton {
+    background-color: orange;
+    border: none;
+    color: white;
+ 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    display:inline;
+}
+
+
+body {
+	padding: 0;
+	
+	margin: 0;
+}
+
+#map{
+	height: 100%;
+}
+
+html, body {
+	height: 100%;
+	font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.lorem {
+	font-style: italic;
+	color: #AAA;
+}
+
+
+.coorcss {
+  position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+
+button {
+  margin-top: 20px;
+  line-height: 60px;
+  font-weight: bold;
+  padding: 0 20px;
+  background: salmon;
+  border: none;
+}
+button:hover {
+  background: lightsalmon;
+}
