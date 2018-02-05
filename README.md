@@ -7,3 +7,9 @@ The goal of this project is to create an easy to setup and easy to run personal 
 
 
 ![alt text](https://github.com/bornagainunitologist/battleplan/blob/master/sample.PNG)
+
+
+
+Related projects
+1. Rust Map Ripper
+2. Craftqueue
